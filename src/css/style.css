@@ -662,7 +662,7 @@ html {
   min-width: 320px;
   height: auto;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -742,4 +742,45 @@ a {
 
 .container-posts {
   display: flex;
+}
+
+.btndiv {
+  flex-direction: column;
+}
+
+.add-button {
+  display: block;
+  border: 0;
+  background-color: rgb(7, 124, 7);
+  padding: 16px;
+  width: 190px;
+  border-radius: 40px;
+  color: #dedede;
+}
+.add-button:hover {
+  background-color: rgb(104, 167, 104);
+  scale: 0.96;
+  box-shadow: 0px 0px 10px rgb(245, 245, 243);
+}
+
+.remove-button {
+  display: block;
+  border: 0;
+  background-color: red;
+  padding: 16px;
+  width: 190px;
+  border-radius: 40px;
+  font-weight: 700;
+  color: #dedede;
+}
+.remove-button:hover {
+  background-color: rgb(228, 104, 104);
+  scale: 0.96;
+  box-shadow: 0px 0px 10px rgb(245, 245, 243);
+}
+
+.btns {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
