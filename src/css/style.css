@@ -723,6 +723,24 @@ a {
   scale: 0.98;
 }
 
+.search {
+  display: flex;
+}
+
+.btn-search {
+  width: 60px;
+  background-color: #4E4E50;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.btn-search:hover {
+  background-color: #6D6E70;
+  scale: 0.98;
+}
+
 .input-search {
   height: 32px;
   background-color: #15171A;
@@ -731,6 +749,8 @@ a {
   color: #FAFCFC;
   padding: 8px;
   min-width: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .img-profile {

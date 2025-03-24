@@ -14,6 +14,9 @@ const Header = () => {
             </div>
             <div className="search">
                 <input type="text" className="input-search" name="search" placeholder="Pesquisar"/>
+                <button className="btn-search">
+                <img width="20" height="20"  src="https://img.icons8.com/ios/50/search-more.png" alt="search-more"/>
+                    </button>
             </div>
             <ul className="menu">
                 <li> <a href="#" className="nav-link"> Categories</a> </li>

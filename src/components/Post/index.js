@@ -2,7 +2,7 @@
 
 const Post = (props) => {
     return (
-        <div key={props.id} className="post mx-2">
+        <div className="post mx-2">
             <div className="img-post"></div>
             <h5>{props.subtitle}</h5>
             <h3>{props.title}</h3>

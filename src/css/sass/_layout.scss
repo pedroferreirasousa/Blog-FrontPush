@@ -53,6 +53,26 @@ a{
     }
 }
 
+.search{
+    display: flex;
+}
+
+.btn-search{
+    width: 60px;
+    background-color: $gray-2;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    padding-right: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $gray-4;
+        scale: .98;
+    }
+
+}
+
 .input-search{
     height: 32px;
     background-color: $black-light;
@@ -61,6 +81,8 @@ a{
     color: $white-light;
     padding: 8px;
     min-width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
 }
 
 .img-profile{
