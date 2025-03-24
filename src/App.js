@@ -1,6 +1,7 @@
 // import Article from "./components/Article";
 import Header from "./components/Header";
-import Main from "./pages/Main";
+// import Main from "./pages/Main";
+import Rotas from "./routes";
 
 // import {useState } from "react";
 
@@ -24,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Rotas />
       {/* <Article /> */}
 
       {/* <div className="btndiv flex-space-between">
